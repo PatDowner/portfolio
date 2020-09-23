@@ -1,14 +1,6 @@
 import React from 'react'
 import {
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText,
-  Container,
-  Row,
-  Col
+  Container
 } from 'reactstrap'
 
 const Contact = () => {
