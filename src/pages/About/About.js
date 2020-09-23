@@ -8,7 +8,7 @@ import me from '../../images/me.jpg'
 
 const About = () => {
   return (
-    <Container fluid={true} className="container-fluid">
+    <Container fluid={true}>
       <h1 className="text-muted border-bottom border-warning">About Me</h1>
       <Row>
         <Col xs="8" sm="4">
