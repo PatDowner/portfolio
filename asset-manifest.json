@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.36497136.chunk.css",
+    "main.js": "/portfolio/static/js/main.119740b2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.119740b2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/portfolio/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.1aeceb0f.chunk.js": "/portfolio/static/js/2.1aeceb0f.chunk.js",
+    "static/js/2.1aeceb0f.chunk.js.map": "/portfolio/static/js/2.1aeceb0f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.7f9157d91d497987744b371fec5259cb.js": "/portfolio/precache-manifest.7f9157d91d497987744b371fec5259cb.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.36497136.chunk.css.map": "/portfolio/static/css/main.36497136.chunk.css.map",
+    "static/js/2.1aeceb0f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1aeceb0f.chunk.js.LICENSE.txt",
+    "static/media/Poke_Ball.png": "/portfolio/static/media/Poke_Ball.f0cc6eae.png",
+    "static/media/burger.jpg": "/portfolio/static/media/burger.c12307f3.jpg",
+    "static/media/employees.jpg": "/portfolio/static/media/employees.f52a4837.jpg",
+    "static/media/me.jpg": "/portfolio/static/media/me.f25f7d0c.jpg",
+    "static/media/quiz.jpg": "/portfolio/static/media/quiz.d3bb3ad7.jpg",
+    "static/media/weatherApp.png": "/portfolio/static/media/weatherApp.477430b5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.1aeceb0f.chunk.js",
+    "static/css/main.36497136.chunk.css",
+    "static/js/main.119740b2.chunk.js"
+  ]
+}
