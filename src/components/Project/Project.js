@@ -6,12 +6,7 @@ import {
   CardBody,
   Col
 } from 'reactstrap'
-import burger from '../../images/burger.jpg'
-import coview19 from '../../images/coview19.png'
-import employees from '../../images/employees.jpg'
-import Poke_Ball from '../../images/Poke_Ball.png'
-import quiz from '../../images/quiz.jpg'
-import weatherApp from '../../images/weatherApp.png'
+import ReactHtmlParser from 'react-html-parser'
 
 const Project = props => {
 
@@ -21,19 +16,19 @@ const Project = props => {
 
   return (
     <>
-      <Col xs="4">
+      <Col sm="6" md="4" className="mb-3">
         <Card className="border-0">
 
-          <Button color="info" onClick={toggle}>
-            <img src={props.project.img} className="img-fluid" />
-            {props.project.title}
+          <Button color="secondary" onClick={toggle}>
+            <img src={props.project.img} className="img-fluid" alt={props.project.alt} />
+            <p>{props.project.title}</p>
           </Button>
 
           <Collapse isOpen={isOpen}>
             <CardBody className="bg-dark text-light">
-              <div>{props.project.description}</div>
-              <Button color="info" href={props.project.deployed} target="_blank">View App</Button>&nbsp;
-              <Button color="info" href={props.project.repo} target="_blank">GitHub</Button>
+              <div>{ReactHtmlParser(props.project.description)}</div>
+              <Button color="info" href={props.project.deployed} target="_blank" className="mt-3">View App</Button>&nbsp;
+              <Button color="info" href={props.project.repo} target="_blank" className="mt-3">GitHub</Button>
             </CardBody>
 
           </Collapse>
