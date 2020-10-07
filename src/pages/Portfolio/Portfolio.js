@@ -3,13 +3,15 @@ import {
   Container,
   Row
 } from 'reactstrap'
+import Project from '../../components/Project'
 import burger from '../../images/burger.jpg'
 import coview19 from '../../images/coview19.png'
 import employees from '../../images/employees.jpg'
 import Poke_Ball from '../../images/Poke_Ball.png'
 import quiz from '../../images/quiz.jpg'
 import weatherApp from '../../images/weatherApp.png'
-import Project from '../../components/Project'
+import googlebooks from '../../images/googlebooks.jpg'
+import plyr2 from '../../images/plyr2.jpg'
 
 const projects = [
   {
@@ -32,9 +34,9 @@ const projects = [
     title: 'Pokemon Fan Page',
     img: Poke_Ball,
     alt: 'red and white pokeball',
-    description: '<p>A Pokemon fan page where a user can pull up data on individual pokemon, search through the cards from the Pokemon trading card game, and quiz themselves on their Pokemon knowledge.</p><p>This app was created in week 4 of my Coding Boot Camp.It is built using HTML, CSS, and Javascript.It uses the Materialize styling library and pulls much of its information from two Pokemon- related APIs (<a href="https://pokeapi.co/">1</a>, <a href="https://pokemontcg.io/">2</a>).</p><p>I was responsible for the Trivia page(functionality & style) and the functionality of the Cards page.A full stack app that allows users to rate businesses on how well they conform with COVID-19 prevention guidelines. This app was created in week 8 of my Coding Boot Camp.Built with HTML, JavaScript, CSS, Sequelize, and more. I was mostly responsible for the front end, but assisted on the back end too.</p>',
-    deployed: 'https://sleepy-forest-03534.herokuapp.com/home',
-    repo: 'https://github.com/mattjavier/coview-19'
+    description: '<p>A Pokemon fan page where a user can pull up data on individual pokemon, search through the cards from the Pokemon trading card game, and quiz themselves on their Pokemon knowledge.</p><p>This app was created in week 4 of my Coding Boot Camp.It is built using HTML, CSS, and Javascript.It uses the Materialize styling library and pulls much of its information from two Pokemon- related APIs (<a href="https://pokeapi.co/">1</a>, <a href="https://pokemontcg.io/">2</a>).</p><p>I was responsible for the Trivia page(functionality & style) and the functionality of the Cards page.',
+    deployed: 'https://kalynbsimms.github.io/pokeProject/',
+    repo: 'https://github.com/Kalynbsimms/pokeProject'
   },
   {
     title: 'COVIEW-19',
@@ -59,6 +61,22 @@ const projects = [
     description: 'A command-line interface app that generates an HTML file that contains a profile for all entered team members.',
     deployed: 'https://drive.google.com/file/d/1XVkTNsr02XRTQ-HdJkr7iLfKr51FLtAF/view',
     repo: 'https://github.com/PatDowner/employeeSummary'
+  },
+  {
+    title: 'React Google Books Search',
+    img: googlebooks,
+    alt: 'Nav bar that says GoogleBooks Search and has a link for home & saved. Saved page shows two books, Luck in the Shadows and Bone Doll Twin, both by Lynn Flewelling. Each book has a description, link for more info, and a delete button.',
+    description: 'A React app that utilizes the Google Books API to allow a user to search for books and save them to a read list. Each book also appears with an external link to the book in the Google Play Store.',
+    deployed: 'https://boiling-sierra-92871.herokuapp.com/',
+    repo: 'https://github.com/PatDowner/googleBooksSearch'
+  },
+  {
+    title: 'plyr 2',
+    img: plyr2,
+    alt: 'Website plyr 2. Profile for DrakkonOwl: World of Warcraft avatar, a bio, discord username, player handle for PSN and PC, genres, and a YouTube video. Navbar also has links to global chat, matches, and a log out. Footer copyright plyr 2, 2020. Powered by React.',
+    description: '<p>A full stack React app for gamers looking for that "player 2" to play with. Users are matched based on the interests they list in their editable profile, share a YouTube video highlighting their own gaming skills, have the ability to friend each other, and are able to connect with each other via player handles listed in their profiles as well as an in-app chat board.</p><p>This app is the final project from my Coding Boot Camp. Built using React, JSX, socket.io and more.</p><p>I was mostly responsible for the front end. However, but assisted on the back end too when my team members needed it.</p>',
+    deployed: 'https://plyr-2.herokuapp.com/',
+    repo: 'https://github.com/mattjavier/plyr-2'
   }
 ]
 
