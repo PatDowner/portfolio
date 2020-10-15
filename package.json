@@ -40,5 +40,17 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
+  },
+  "description": "This portfolio was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It also uses Reactstrap deployed on Heroku.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatDowner/reactPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatDowner/reactPortfolio/issues"
   }
 }
